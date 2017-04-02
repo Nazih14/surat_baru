@@ -70,9 +70,8 @@
 
           <div class="col-md-10 col-md-offset-1 main" >
             <div class="col-md-6 left-side" >
-            <h2 class="logo"><img src="images/images/mail7.png" class="" width="25%">    Pandawa Arsip</h2>
+            <h2 class="logo"><img src="images/icon.png" class="" width="25%">    Pandawa Arsip</h2>
               <p style="text-align: justify;text-justify: inter-word; padding: 10px 30px 0px 30px; -webkit-font-smoothing: antialiased !important;">Aplikasi Arsip ini adalah aplikasi yang sengaja dibangun untuk mengelola semua data-data suarat masuk, surat keluar dan juga hak akses masing-masing user terhadap data-data surat masuk dan keluar pada sebuah perusahaan, arapkan login terlebih dahulu , Untuk Mengelola Semua Data yang ada Melalui menu-menu yang telah tersedia di dalam dashboar aplikasi ini.<br/>
-                Jika Anda belum mempunyai account daftar disini...
               </p>
               <br>
             </div><!--col-sm-6-->
@@ -129,9 +128,8 @@
 
           <div class="col-md-10 col-md-offset-1 main" >
             <div class="col-md-6 left-side" >
-              <h2 class="logo"><img src="images/images/mail7.png" class="" width="25%">    Pandawa Arsip </h2>
+              <h2 class="logo"><img src="images/icon.png" class="" width="25%">    Pandawa Arsip </h2>
               <p style="text-align: justify;text-justify: inter-word; padding: 10px 30px 0px 30px; -webkit-font-smoothing: antialiased !important;">Aplikasi Arsip ini adalah aplikasi yang sengaja dibangun untuk mengelola semua data-data suarat masuk, surat keluar dan juga hak akses masing-masing user terhadap data-data surat masuk dan keluar pada sebuah perusahaan, arapkan login terlebih dahulu , Untuk Mengelola Semua Data yang ada Melalui menu-menu yang telah tersedia di dalam dashboar aplikasi ini.<br/>
-                Jika Anda belum mempunyai account daftar disini...
               </p>
 
               <br>

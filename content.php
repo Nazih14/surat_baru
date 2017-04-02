@@ -44,7 +44,7 @@ session_start();
         <ul id="side" class="nav navbar-nav-1 side-nav">
 
          <li class="side-user">  
-           <img class="img-circle" src="images/images/admin.png" alt="sumit kumar" width="50%">
+           <img class="img-circle" src="images/icon.png" alt="sumit kumar" width="50%">
            <p class="welcome"><i class="fa fa-key"></i> Logged in as</p>
            <p class="name tooltip-sidebar-logout"> Sumit
             <span class="last-name"><?php echo $_SESSION[namalengkap]; ?></span>
