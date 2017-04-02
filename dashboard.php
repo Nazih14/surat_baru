@@ -32,7 +32,8 @@
   </div> 
 
 
-  <div class="row" >
+  <div class="row">
+  <div class="col-md-12">
    <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
       <a href="#">
@@ -567,7 +568,7 @@
       </a>
       <div class="circle-tile-content green-light">
         <div class="circle-tile-description text-faded">
-        Surat Permintaan Barang
+          Surat Permintaan Barang
         </div>
         <div class="circle-tile-number text-faded">
           96
@@ -577,7 +578,7 @@
       </div>
     </div>
   </div>
-<?php } ?>
+  <?php } ?>
 
 
 
@@ -643,7 +644,7 @@
       </div>
     </div>
   </div>
-   <?php } ?>
+  <?php } ?>
 
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
@@ -667,7 +668,7 @@
 
 
 
+</div>
+</div>
 
 
-  
-  
