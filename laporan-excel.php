@@ -39,18 +39,18 @@ th { border:2px solid #000; }
 <body onload="window.print()">
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" colspan="8"><strong>PENGARSIPAN SURAT-SURAT<br>
-    									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI<br>
+    <td align="center" colspan="12"><strong>PENGARSIPAN SURAT-SURAT<br>
+    									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI <br>
     									   </strong></td>
   </tr>
   <tr>
-    <td align="center" colspan="8"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
+     <td align="center" colspan="12"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
 <?php	
 	echo "<table width=100% border=1>
-					<tr bgcolor='green'>
+					<tr bgcolor='yellow'>
                         <th width=30px>No</th>
                         <th>Pengirim</th>
                         <th width='100px'>Tanggal Surat</th>
@@ -58,7 +58,7 @@ th { border:2px solid #000; }
                         <th>No Surat</th>
                         <th>Perihal</th>
                         <th>Lokasi Arsip</th>
-                        <th>detail Perihal</th>
+                        <th>Penyelesaian</th>
                     </tr>
                     </thead>
                     <tbody>";
@@ -81,7 +81,8 @@ th { border:2px solid #000; }
 
 <table width=100%>
   <tr>
-     <td width="230" align="center">Mengetahui <br> Project Manager</td>
+     <tr>
+    <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
@@ -97,6 +98,7 @@ th { border:2px solid #000; }
 	<td align="center"><br /><br /><br /><br /><br />
       ( Dwi Prastowo S.Kom )<br /><br /><br /></td>
 	<td align="center"><br /><br /><br /><br /><br />
-      ( Ali Nurdin S.Kom )<br /><br /><br /></td>
+      ( Ali Nurdin S.Kom )<br /><br /><br />
+	</td>
   </tr>
 </table> 

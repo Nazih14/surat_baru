@@ -1,17 +1,17 @@
 <?php 
     if ($_GET[aksi]==''){
 ?>
-        <h4 style='padding-top:15px'>Semua Data Surat IZIN</h4>
+        <h4 style='padding-top:15px'>Semua Data Surat izin</h4>
             <!-- Basic Data Tables Example -->
             <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
                 	<?php if ($_SESSION[level]=='user_admin'){ ?>
-                    	<a class='btn btn-primary' href='index.php?page=izin&aksi=tambah'><i class='fa fa-plus'></i> Tambah Surat IZIN</a>
-                    	<a class='btn btn-info' target='BLANK' href='izin-print.php'><i class='fa fa-print'></i> Print Surat IZIN</a>
+                    	<a class='btn btn-primary' href='index.php?page=izin&aksi=tambah'><i class='fa fa-plus'></i> Tambah Surat izin</a>
+                    	<a class='btn btn-info' target='BLANK' href='izin-print.php'><i class='fa fa-print'></i> Print Surat izin</a>
     					<a class='btn btn-success' href='izin-excel.php'><i class='fa fa-file'></i> Export ke Excel</a>
                 	<?php }elseif ($_SESSION[level]=='user_input'){ ?>
-                		<a class='btn btn-primary' href='index.php?page=izin&aksi=tambah'><i class='fa fa-plus'></i> Tambah Surat IZIN</a>
+                		<a class='btn btn-primary' href='index.php?page=izin&aksi=tambah'><i class='fa fa-plus'></i> Tambah Surat izin</a>
                 	<?php } ?>
                 </div>
 
@@ -93,21 +93,67 @@
             $tanggaleks = date("Y-m-d H:i:s");
                 if ($filename != ''){
                     if (move_uploaded_file($_FILES['i']['tmp_name'], $uploadfile)) {            
-                        mysql_query("INSERT INTO izin (asal_surat, no_surat, tanggal_surat, tanggal_masuk, tanggal_ijin , id_perihal,  perihal, isi_perihal, file_surat, lokasi_arsip, tanggal_eksekusi, id_user, unit_kerja)           
-                                        VALUES('$_POST[a]','$_POST[b]','$_POST[c]','$_POST[e]','$_POST[d]','$_POST[g]','$_POST[f]','$_POST[h]','$filename','$_POST[j]','$tanggaleks','$_SESSION[login]','$unit')");
+                         mysql_query("INSERT INTO izin (asal_surat, 
+														no_surat, 
+														tanggal_surat, 
+														tanggal_masuk, 
+														tanggal_ijin , 
+														id_perihal,  
+														perihal, 
+														isi_perihal, 
+														file_surat, 
+														lokasi_arsip, 
+														tanggal_eksekusi,
+														id_user, 
+														unit_kerja)           
+                                                 VALUES('$_POST[a]',
+												        '$_POST[b]',
+														'$_POST[c]',
+														'$_POST[e]',
+														'$_POST[d]',
+														'$_POST[g]',
+														'$_POST[f]',
+														'$_POST[h]',
+														'$filename',
+														'$_POST[j]',
+														'$tanggaleks',
+														'$_SESSION[login]',
+														'$unit')");
                         
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk.');
-                                window.location='index.php?page=inbox'</script>";
+                                window.location='index.php?page=izin'</script>";
                     }else{
                         echo "<script>window.alert('Gagal Menambahkan Data Surat Masuk.');
-                                window.location='index.php?page=inbox&aksi=tambah'</script>";
+                                window.location='index.php?page=izin&aksi=tambah'</script>";
                     }
                 }else{
-                        mysql_query("INSERT INTO izin (asal_surat, no_surat, tanggal_surat, tanggal_masuk, tanggal_ijin  , id_perihal, perihal, isi_perihal, lokasi_arsip, tanggal_eksekusi, id_user, unit_kerja)           
-                                        VALUES('$_POST[a]','$_POST[b]','$_POST[c]','$_POST[e]','$_POST[f]','$_POST[g]','$_POST[f]','$_POST[h]','$_POST[j]''$tanggaleks','$_SESSION[login]','$unit')");
+                        mysql_query("INSERT INTO izin (asal_surat, 
+													   no_surat, 
+													   tanggal_surat, 
+													   tanggal_masuk, 
+													   tanggal_ijin, 
+													   id_perihal, 
+													   perihal, 
+													   isi_perihal, 
+													   lokasi_arsip, 
+													   tanggal_eksekusi, 
+													   id_user, 
+													   unit_kerja)           
+                                        VALUES('$_POST[a]',
+											   '$_POST[b]',
+											   '$_POST[c]',
+											   '$_POST[e]',
+											   '$_POST[f]',
+											   '$_POST[g]',
+											   '$_POST[f]',
+											   '$_POST[h]',
+											   '$_POST[j]',
+											   '$tanggaleks',
+											   '$_SESSION[login]',
+											   '$unit')");
                                      
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk .');
-                                window.location='index.php?page=inbox'</script>";
+                                window.location='index.php?page=izin'</script>";
                 }
     }
 ?>
@@ -194,8 +240,8 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                <option value='SDM'>Unit Sumber daya Manusia</option>
-                                <option value='PY'>Unit Payroll</option>
+                                <option value='A'>Unit Kerja A</option>
+                                <option value='F'>Unit Kerja F</option>
                             </select>
                             </div>
                         </div>
@@ -261,7 +307,7 @@
             <!-- Basic Data Tables Example -->
           <div class="col-md-12">
             <div class="panel panel-default">
-            <div class="panel-heading"><strong>Edit Data Surat Izin</strong></div>
+            <div class="panel-heading"><strong>Edit Data Surat izin</strong></div>
                 <div class="panel-body">
                     <form action='' class="form-horizontal" method="POST" data-validate="parsley" enctype='multipart/form-data'>      
 

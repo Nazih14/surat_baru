@@ -169,13 +169,13 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                <option value='SDM'>Unit Sumber daya Manusia</option>
-                                <option value='B'>Unit Marketing</option>
-                                <option value='C'>Support</option>
-                                <option value='D'>Umum</option>
-                                <option value='E'>IT</option>
-                                <option value='PY'>Unit Payroll</option>
-                                <option value='G'>Unit Direksi</option>
+                                <option value='A'>Unit Kerja A</option>
+                                <option value='B'>Unit Kerja B</option>
+                                <option value='C'>Unit Kerja C</option>
+                                <option value='D'>Unit Kerja D</option>
+                                <option value='E'>Unit Kerja E</option>
+                                <option value='F'>Unit Kerja F</option>
+                                <option value='G'>Unit Kerja G</option>
                             </select>
                             </div>
                         </div>
@@ -295,13 +295,13 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value='<?php echo $e[unit_kerja]; ?>'>Unit Kerja <?php echo $e[unit_kerja]; ?></option>
-                                <option value='SDM'>Unit Sumber daya Manusia</option>
-                                <option value='B'>Unit Marketing</option>
-                                <option value='C'>Support</option>
-                                <option value='D'>Umum</option>
-                                <option value='E'>IT</option>
-                                <option value='PY'>Unit Payroll</option>
-                                <option value='G'>Unit Direksi</option>
+                                <option value='A'>Unit Kerja A</option>
+                                <option value='B'>Unit Kerja B</option>
+                                <option value='C'>Unit Kerja C</option>
+                                <option value='D'>Unit Kerja D</option>
+                                <option value='E'>Unit Kerja E</option>
+                                <option value='F'>Unit Kerja F</option>
+                                <option value='G'>Unit Kerja G</option>
                             </select>
                             </div>
                         </div>
@@ -330,7 +330,7 @@
 
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                   <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
+                    <p><small>&copy 2017 - Develop by THE TEAM</small>
                         <br /><br /> 
                         <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
                         <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 

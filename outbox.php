@@ -197,8 +197,8 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                 <option value='SDM'>Unit Sumber daya Manusia</option>
-                                <option value='PY'>Unit Payroll</option>
+                                <option value='A'>Unit Kerja A</option>
+                                <option value='F'>Unit Kerja F</option>
                             </select>
                             </div>
                         </div>
@@ -208,6 +208,7 @@
                             <div class="col-lg-9 pull-right">    
                             <button type="submit" name='simpan' class="btn btn-info">Simpan Data</button>                  
                             <button type="reset" class="btn btn-default">Reset</button>
+
                             </div>
                         </div>
                     </form>

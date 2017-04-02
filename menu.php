@@ -1,189 +1,198 @@
+      <!-- begin SIDE NAV USER PANEL -->     
 
-<ul style='margin-top:25px' id="dashboard-menu">
-              <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-success" href="index.php">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-laptop"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>  
 
-            <?php if ($_SESSION[unit] == '0'){ ?>  
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=inbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>SM SDM, PAY</span>
-                </a>
-            </li>
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=binbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>SM Mkt,Sup,IT,Um</span>
-                </a>
-            </li>
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=inboxg">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>SM Dir</span>
-                </a>
-            </li>
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=outbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>SK SDM, PAY</span>
-                </a>
-            </li>
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=boutbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>SK Mkt,Sup,IT,Um</span>
-                </a>
-            </li>
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=outboxg">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>SM Dir</span>
-                </a>
-            </li>
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#f25237; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=undangan">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Undangan</span>
-                </a>
-            </li>
+      <li class="dashboard">
+       <a class="active" href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
+   </li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#929e31; text-align:left; padding-left:15px' class="btn " href="index.php?page=laporan">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Laporan</span>
-                </a>
-            </li>
+   <?php if ($_SESSION[unit] == '0'){ ?>  
+   <li class="panel">
+       <a href="inbox">
+         <i class="fa fa-bar-chart-o"></i> Inbox A, F <i class="fa fa-caret-down pull-right"></i>
+     </a>
+ </li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#666b66; text-align:left; padding-left:15px' class="btn " href="index.php?page=kendaraan">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Kendaraan</span>
-                </a>
-            </li>
-			<!-- testing -->
-			
-			 <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=izin">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Izin Kary</span>
-                </a>
-            </li>
-			<!-- testing -->
-			<!-- testing -->
-			
-			 <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=pinjam">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Peminjaman</span>
-                </a>
-            </li>
-			<!-- testing -->
+ <li class="panel">
+     <a href="binbox">
+       <i class="fa fa-calendar"></i> Inbox B,C,D,E <i class="fa fa-caret-down pull-right"></i>
+   </a>
+</li>
 
-            <?php }elseif ($_SESSION[unit] == 'F'){ ?>
+<li class="panel">
+   <a href="inboxg">
+     <i class="fa fa-clipboard"></i> Inbox G <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=inbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Masuk</span>
-                </a>
-            </li>
+<li class="panel">
+    <a href="outbox">
+       <i class="fa fa-edit"></i> Outbox A, F <i class="fa fa-caret-down pull-right"></i>
+   </a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=outbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Keluar</span>
-                </a>
-            </li>
+<li class="panel">
+    <a href="boutbox">
+        <i class="fa fa-edit"></i> Outbox A,B,C,D,E <i class="fa fa-caret-down pull-right"></i>
+    </a>
+</li>
 
-            <?php }elseif ($_SESSION[unit] == 'G'){ ?>
+<li class="panel">
+   <a href="outboxg">
+     <i class="fa fa-inbox"></i> Outbox G <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=inboxg">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Masuk</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="undangan">
+   <i class="fa fa-envelope"></i> Surat Undangan <i class="fa fa-caret-down pull-right"></i>
+</a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=outboxg">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Keluar</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="laporan">
+   <i class="fa fa-envelope"></i> Surat Laporan <i class="fa fa-caret-down pull-right"></i>
+</a>
+</li>
 
-            <?php }elseif ($_SESSION[unit] == 'A'){ ?>
+<li class="panel">
+ <a href="kendaraan">
+   <i class="fa fa-envelope"></i> Surat Kendaraan <i class="fa fa-caret-down pull-right"></i>
+</a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=inbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Masuk</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="izin">
+   <i class="fa fa-envelope"></i> Surat Izin Karyawan <i class="fa fa-caret-down pull-right"></i>
+</a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=outbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Keluar</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="pinjamb">
+   <i class="fa fa-envelope"></i> Surat Peminjam <i class="fa fa-caret-down pull-right"></i>
+</a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#f25237; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=undangan">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Undangan</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="minta">
+   <i class="fa fa-envelope"></i> Permintaan Barang <i class="fa fa-caret-down pull-right"></i>
+</a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#929e31; text-align:left; padding-left:15px' class="btn " href="index.php?page=laporan">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Laporan</span>
-                </a>
-            </li>
+<?php }elseif ($_SESSION[unit] == 'F'){ ?>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#666b66; text-align:left; padding-left:15px' class="btn " href="index.php?page=kendaraan">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Kendaraan</span>
-                </a>
-            </li>
 
-            <?php }else{ ?>
+<li class="panel">
+ <a href="inbox">
+     <i class="fa fa-envelope"></i> Surat Masuk <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; text-align:left; padding-left:15px' class="btn btn-info" href="index.php?page=binbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Masuk</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="outbox">
+     <i class="fa fa-envelope"></i> Surat Keluar <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#bd2220; text-align:left; padding-left:15px' class="btn btn-danger" href="index.php?page=boutbox">
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-files-o"></i>
-                    <span>Surat Keluar</span>
-                </a>
-            </li>
+<li class="panel">
+ <a href="izin">
+     <i class="fa fa-envelope"></i> Surat Izin Karyawan <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
 
-            <?php } ?>
 
-            <li>
-                <a style='padding-top:8px; color:#fff; border-radius:0px; background:#865531; text-align:left; padding-left:15px' class="btn dropdown-toggle" href="#">              
-                    <i style='margin-top:-11px; color:#fff' class="fa fa-table"></i>
-                    <span>Data User</span> <b class="caret"></b>
-                </a>
-                 <ul class="submenu">
-                    <li><a href="index.php?page=user&stat=1">Data User Biasa</a></li>
-                    <li><a href="index.php?page=user&stat=2">Data User Input</a></li>
-                    <?php if ($_SESSION[level] == 'user_admin'){ ?>
-                    <li><a href="index.php?page=user&stat=3">Data User Admin</a></li>
-                    <?php } ?>
+<?php }elseif ($_SESSION[unit] == 'G'){ ?>
 
-                </ul>
-            </li> 
 
-           
-        </ul>
+<li class="panel">
+ <a href="inboxg">
+     <i class="fa fa-envelope"></i> Surat Masuk <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="outboxg">
+     <i class="fa fa-envelope"></i> Surat Keluar <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="pinjamb">
+     <i class="fa fa-envelope"></i> Peminjaman <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+
+<?php }elseif ($_SESSION[unit] == 'A'){ ?>
+
+<li class="panel">
+ <a href="inbox">
+     <i class="fa fa-envelope"></i> Surat Masuk <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="outbox">
+     <i class="fa fa-envelope"></i> Surat Keluar <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="undangan">
+     <i class="fa fa-envelope"></i> Surat Undangan <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="laporan">
+     <i class="fa fa-envelope"></i> Surat Laporan <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="kendaraan">
+     <i class="fa fa-envelope"></i> Surat Kendaraan <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<?php }else{ ?>
+
+<li class="panel">
+ <a href="binbox">
+     <i class="fa fa-envelope"></i> Surat Masuk <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="boutbox">
+     <i class="fa fa-envelope"></i> Surat Keluar <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+<li class="panel">
+ <a href="minta">
+     <i class="fa fa-envelope"></i> Permintaan Barang <i class="fa fa-caret-down pull-right"></i>
+ </a>
+</li>
+
+
+<?php } ?>
+
+<li class="panel">
+ <a href="javascript:;" data-toggle="collapse" data-target="#charts">
+ <i class="fa fa-bar-chart-o"></i> Data User <i class="fa fa-caret-down pull-right"></i>
+</a>
+
+<ul class="collapse nav" id="charts">
+    <li>
+      <a href="index.php?page=user&stat=1"><i class="fa fa-angle-double-right"></i> Data User Biasa</a>
+  </li>
+  <li>
+      <a href="index.php?page=user&stat=2"><i class="fa fa-angle-double-right"></i> Data User Input</a>
+  </li>
+  <?php if ($_SESSION[level] == 'user_admin'){ ?>
+  <li>
+      <a href="index.php?page=user&stat=3"><i class="fa fa-angle-double-right"></i> Data User Admin</a>
+  </li>
+  <?php } ?>
+</ul>
+</li>

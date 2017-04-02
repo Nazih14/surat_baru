@@ -80,7 +80,7 @@
 }elseif ($_GET[aksi]=='hapus'){ 
 	mysql_query("DELETE FROM inbox_b where id_inbox_b='$_GET[id]'");
 	echo "<script>window.alert('Data Surat Masuk Berhasil Di Hapus.');
-                                window.location='index.php?page=binbox'</script>";
+                                window.location='binbox'</script>";
 
 }elseif ($_GET[aksi]=='tambah'){ 
     if (isset($_POST[simpan])){
@@ -127,7 +127,7 @@
                                                                 '$unit')");
                         
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk.');
-                                window.location='index.php?page=binbox'</script>";
+                                window.location='binbox'</script>";
                     }else{
                         echo "<script>window.alert('Gagal Menambahkan Data Surat Masuk.');
                                 window.location='index.php?page=binbox&aksi=tambah'</script>";
@@ -163,7 +163,7 @@
                                                                 '$unit')");
                         
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk.');
-                                window.location='index.php?page=binbox'</script>";
+                                window.location='binbox'</script>";
                 }
     }
 ?>
@@ -212,21 +212,21 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal A</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian A</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='f' rows="6" class="textarea form-control" data-trigger="keyup"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal B</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian B</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='g' rows="6" class="textarea form-control" data-trigger="keyup"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal C</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian C</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='h' rows="6" class="textarea form-control" data-trigger="keyup"></textarea>
                             </div>
@@ -266,11 +266,10 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                <option value='B'>Unit Marketing</option>
-                                <option value='C'>Support</option>
-                                <option value='D'>Umum</option>
-                                <option value='E'>IT</option>
-								
+                                <option value='B'>Unit Kerja B</option>
+                                <option value='C'>Unit Kerja C</option>
+                                <option value='D'>Unit Kerja D</option>
+                                <option value='E'>Unit Kerja E</option>
                             </select>
                             </div>
                         </div>
@@ -311,7 +310,7 @@
                                                             upload_file        = '$filename' where id_inbox_b='$_GET[id]'");
                         
                         echo "<script>window.alert('Sukses Update Data Surat Masuk.');
-                                window.location='index.php?page=binbox'</script>";
+                                window.location='binbox'</script>";
                     }else{
                         echo "<script>window.alert('Gagal Update Data Surat Masuk.');
                                 window.location='index.php?page=binbox&aksi=edit&id=$_GET[id]'</script>";
@@ -330,7 +329,7 @@
                                                             lokasi_arsip       = '$_POST[k]' where id_inbox_b='$_GET[id]'");
                         
                         echo "<script>window.alert('Sukses Update Data Surat Masuk.');
-                                window.location='index.php?page=binbox'</script>";
+                                window.location='binbox'</script>";
                 }
     }
 ?>
@@ -372,28 +371,28 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal A</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian A</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='e' rows="6" class="textarea form-control" data-trigger="keyup"><?php echo $e[id_perihal]; ?></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal A</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian A</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='f' rows="6" class="textarea form-control" data-trigger="keyup"><?php echo $e[isi_disposisi_a]; ?></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal B</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian B</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='g' rows="6" class="textarea form-control" data-trigger="keyup"><?php echo $e[isi_disposisi_b]; ?></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal C</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian C</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='h' rows="6" class="textarea form-control" data-trigger="keyup"><?php echo $e[isi_disposisi_c]; ?></textarea>
                             </div>
@@ -487,21 +486,21 @@
                         </div>
                 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Isi Perihal A</label>
+                            <label class='col-lg-2 control-label'>Isi Penyelesaian A</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                                  $in[isi_disposisi_a] <br><br>
                             </div>
                         </div>
 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Isi Perihal B</label>
+                            <label class='col-lg-2 control-label'>Isi Penyelesaian B</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                                  $in[isi_disposisi_b] <br><br>
                             </div>
                         </div>
 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Isi Perihal C</label>
+                            <label class='col-lg-2 control-label'>Isi Penyelesaian C</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                                  $in[isi_disposisi_c] <br><br>
                             </div>
@@ -545,7 +544,7 @@
 
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
+                     <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
                         <br /><br /> 
                         <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
                         <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 

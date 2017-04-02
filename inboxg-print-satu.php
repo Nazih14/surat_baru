@@ -5,17 +5,17 @@ session_start();
 include "koneksi.php"; 
 ?>
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
+   <tr>
     <td width="550" align="center">&nbsp;</td>
 	<td width="65" rowspan="6"><img src="images/images.png" width="90" height="90"></td>
   </tr>
   <tr>
-    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT </p>
+    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT</p>
 	<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI </p> 
 	</strong></td>
   </tr>
   <tr>
-    <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
+   <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
@@ -72,7 +72,7 @@ $in = mysql_fetch_array(mysql_query("SELECT * FROM inbox_g where id_inbox='$_GET
     <td width="286"></td>
   </tr>
   <tr>
-     <td width="230" align="center">Mengetahui <br> Project Manager</td>
+    <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
@@ -89,6 +89,7 @@ $in = mysql_fetch_array(mysql_query("SELECT * FROM inbox_g where id_inbox='$_GET
       ( Dwi Prastowo S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
       ( Ali Nurdin S.Kom )<br /><br />
+	 </td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;</td>

@@ -144,14 +144,14 @@
                         </div>
 
                 		<div class="form-group">
-                            <label class="col-lg-2 control-label">Disposisi</label>
+                            <label class="col-lg-2 control-label">Penyelesaian</label>
                             <div class="col-lg-9">
                             <textarea placeholder="" name='f' rows="3" class="form-control" data-trigger="keyup"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Disposisi</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian</label>
                             <div class="col-lg-9">
                             <textarea placeholder="" name='g' rows="9" class="textarea form-control" data-trigger="keyup"></textarea>
                             </div>
@@ -268,14 +268,14 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Perihal</label>
+                            <label class="col-lg-2 control-label">Penyelesaian</label>
                             <div class="col-lg-9">
                             <textarea placeholder="" name='f' rows="3" class="form-control" data-trigger="keyup"><?php echo $e[disposisi]; ?></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian</label>
                             <div class="col-lg-9">
                             <textarea placeholder="" name='g' rows="9" class="textarea form-control" data-trigger="keyup"><?php echo $e[isi_disposisi]; ?></textarea>
                             </div>
@@ -354,14 +354,14 @@
                         </div>
 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Disposisi</label>
+                            <label class='col-lg-2 control-label'>Penyelesaian</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                                 $e[disposisi]
                             </div>
                         </div>
 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Isi Disposisi</label>
+                            <label class='col-lg-2 control-label'>Isi Penyelesaian</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                                 $e[isi_disposisi]
                             </div>

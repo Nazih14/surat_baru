@@ -39,18 +39,18 @@ th { border:2px solid #000; }
 <body onload="window.print()">
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" colspan="13"><strong>PENGARSIPAN SURAT-SURAT <br>
-    									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI  <br>
-    									  </strong></td>
+       <td align="center" colspan="12"><strong>PENGARSIPAN SURAT-SURAT<br>
+    									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI <br>
+    									   </strong></td>>
   </tr>
   <tr>
-    <td align="center" colspan="13"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
+    <td align="center" colspan="12"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
 <?php	
 	echo "<table width=100% border=1>
-					<tr bgcolor='green'>
+					<tr bgcolor='blue'>
                         <th width=30px>No</th>
                         <th>No. Surat</th>
                         <th width='100px'>Tanggal Surat</th>
@@ -58,10 +58,10 @@ th { border:2px solid #000; }
                         <th>Perihal</th>
                         <th>Tembusan</th>
                         <th>Lamp.</th>
-                        <th>perihal 1</th>
-                        <th>perihal 2</th>
-                        <th>perihal 3</th>
-                        <th>perihal 4</th>
+                        <th>Diproses 1</th>
+                        <th>Diproses 2</th>
+                        <th>Diproses 3</th>
+                        <th>Diproses 4</th>
                         <th>Penandatangan</th>
                         <th>Status</th>
                     </tr>
@@ -95,14 +95,14 @@ th { border:2px solid #000; }
 
 <table width=100%>
   <tr>
-    <td width="230" align="center">Mengetahui <br> Project Manager</td>
+   <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>>
   </tr>
   <tr>
-    <td align="center"><br /><br /><br /><br /><br />
+   <td align="center"><br /><br /><br /><br /><br />
       ( Suhandi S.Kom )<br /><br /><br /></td>
 	<td align="center"><br /><br /><br /><br /><br />
       ( Nazih S.Kom )<br /><br /><br /></td>
@@ -112,6 +112,6 @@ th { border:2px solid #000; }
       ( Dwi Prastowo S.Kom )<br /><br /><br /></td>
 	<td align="center"><br /><br /><br /><br /><br />
       ( Ali Nurdin S.Kom )<br /><br /><br />
-	</td>
+    </td>
   </tr>
 </table> 

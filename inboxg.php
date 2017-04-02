@@ -72,7 +72,7 @@
 }elseif ($_GET[aksi]=='hapus'){ 
 	mysql_query("DELETE FROM inbox_g where id_inbox='$_GET[id]'");
 	echo "<script>window.alert('Data Surat Masuk Berhasil Di Hapus.');
-                                window.location='index.php?page=inboxg'</script>";
+                                window.location='inboxg'</script>";
 
 }elseif ($_GET[aksi]=='tambah'){ 
     if (isset($_POST[simpan])){
@@ -91,7 +91,7 @@
                                         VALUES('$_POST[a]','$_POST[b]','$_POST[c]','$_POST[d]','$_POST[e]','$_POST[f]','$_POST[g]','$filename','$_SESSION[login]','$unit')");
                         
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk.');
-                                window.location='index.php?page=inboxg'</script>";
+                                window.location='inboxg'</script>";
                     }else{
                         echo "<script>window.alert('Gagal Menambahkan Data Surat Masuk.');
                                 window.location='index.php?page=inboxg&aksi=tambah'</script>";
@@ -101,7 +101,7 @@
                                         VALUES('$_POST[a]','$_POST[b]','$_POST[c]','$_POST[d]','$_POST[e]','$_POST[f]','$_POST[g]','$_SESSION[login]','$unit')");
                                      
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk .');
-                                window.location='index.php?page=inboxg'</script>";
+                                window.location='inboxg'</script>";
                 }
     }
 ?>
@@ -120,8 +120,7 @@
                             <input type="text" name="a" placeholder="" data-required="true" class="bg-focus form-control">
                             </div>
                         </div>
-
-                        <div class="form-group">
+					    <div class="form-group">
                             <label class="col-lg-2 control-label">Tanggal Surat</label>
                             <div class="col-lg-8">
                             <input type="text" class="combodate form-control" data-format="YYYY-MM-DD" data-template="D  MMM  YYYY" name="b" value="<?php echo date("Y-m-d"); ?>">
@@ -177,7 +176,7 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                <option value='G'>Unit Direksi</option>
+                                <option value='G'>Unit Kerja G</option>
                             </select>
                             </div>
                         </div>
@@ -214,7 +213,7 @@
                         									file_surat 		        = '$filename'  where id_inbox='$_GET[id]'");
                         
                         echo "<script>window.alert('Sukses Update Data Surat Masuk.');
-                                window.location='index.php?page=inboxg'</script>";
+                                window.location='inboxg'</script>";
                     }else{
                         echo "<script>window.alert('Gagal Update Data Surat Masuk.');
                                 window.location='index.php?page=inboxg&aksi=edit&id=$_GET[id]'</script>";
@@ -229,7 +228,7 @@
                                                             id_perihal              = '$_POST[g]'  where id_inbox='$_GET[id]'");
                                        
                         echo "<script>window.alert('Sukses Update Data Surat Masuk .');
-                                window.location='index.php?page=inboxg'</script>";
+                                window.location='inboxg'</script>";
                 }
     }
 ?>
@@ -386,7 +385,7 @@
 
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
+                     <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
                         <br /><br /> 
                         <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
                         <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 

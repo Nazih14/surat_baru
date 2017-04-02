@@ -39,7 +39,7 @@ th { border:2px solid #000; }
 <body onload="window.print()">
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" colspan="12"><strong>PENGARSIPAN SURAT-SURAT<br>
+   <td align="center" colspan="12"><strong>PENGARSIPAN SURAT-SURAT<br>
     									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI <br>
     									   </strong></td>
   </tr>
@@ -50,16 +50,16 @@ th { border:2px solid #000; }
 <br><br>
 <?php	
 	echo "<table width=100% border=1>
-					<tr bgcolor='yellow'>
+					<tr bgcolor='blue'>
                         <th>No</th>
                         <th>No. Surat</th>
                         <th>Pengirim</th>
                         <th width='100px'>Tanggal Surat</th>
                         <th width='100px'>Masuk Agenda</th>
                         <th>Perihal</th>
-                        <th>Isi Perihal 1</th>
-                        <th>Isi Perihal 2</th>
-                        <th>Isi Perihal 3</th>
+                        <th>Isi Penyelesaian A</th>
+                        <th>Isi Penyelesaian B</th>
+                        <th>Isi Penyelesaian C</th>
                         <th width='50px'>Lamp.</th>
                         <th width='60px'>Status</th>
                         <th width='95px'>Lokasi Arsip</th>";
@@ -101,6 +101,7 @@ th { border:2px solid #000; }
 
 <table width=100%>
   <tr>
+   <tr>
     <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>

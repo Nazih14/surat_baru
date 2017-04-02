@@ -76,7 +76,7 @@
 }elseif ($_GET[aksi]=='hapus'){ 
 	mysql_query("DELETE FROM inbox where id_inbox='$_GET[id]'");
 	echo "<script>window.alert('Data Surat Masuk Berhasil Di Hapus.');
-                                window.location='index.php?page=inbox'</script>";
+                                window.location='inbox'</script>";
 
 }elseif ($_GET[aksi]=='tambah'){ 
     if (isset($_POST[simpan])){
@@ -95,7 +95,7 @@
                                         VALUES('$_POST[a]','$_POST[d]','$_POST[b]','$_POST[c]','$_POST[e]','$_POST[f]','$_POST[g]','$filename','$_POST[i]','$tanggaleks','$_SESSION[login]','$unit')");
                         
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk.');
-                                window.location='index.php?page=inbox'</script>";
+                                window.location='inbox'</script>";
                     }else{
                         echo "<script>window.alert('Gagal Menambahkan Data Surat Masuk.');
                                 window.location='index.php?page=inbox&aksi=tambah'</script>";
@@ -105,7 +105,7 @@
                                         VALUES('$_POST[a]','$_POST[d]','$_POST[b]','$_POST[c]','$_POST[e]','$_POST[f]','$_POST[g]','$_POST[i]','$tanggaleks','$_SESSION[login]','$unit')");
                                      
                         echo "<script>window.alert('Sukses Menambahkan Data Surat Masuk .');
-                                window.location='index.php?page=inbox'</script>";
+                                window.location='inbox'</script>";
                 }
     }
 ?>
@@ -147,21 +147,21 @@
                         </div>
                 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Jml Perihal</label>
+                            <label class="col-lg-2 control-label">Perihal</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='e' rows="3" class="form-control" data-trigger="keyup"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Perihal</label>
+                            <label class="col-lg-2 control-label">Penyelesaian</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='f' rows="3" class="form-control" data-trigger="keyup"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='g' rows="9" class="textarea form-control" data-trigger="keyup"></textarea>
                             </div>
@@ -187,13 +187,14 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                <option value='SDM'>Unit Sumber daya Manusia</option>
-                                <option value='PY'>Unit Payroll</option>
+                                <option value='A'>Unit Kerja A</option>
+                                <option value='F'>Unit Kerja F</option>
                             </select>
                             </div>
                         </div>
                         <?php } ?>
 
+                    
                         <div class="form-group">
                             <div class="col-lg-9 pull-right">    
                             <button type="submit" name='simpan' class="btn btn-info">Simpan Data</button>                  
@@ -242,7 +243,7 @@
                                                             lokasi_arsip     = '$_POST[i]' where id_inbox='$_GET[id]'");
                                        
                         echo "<script>window.alert('Sukses Update Data Surat Masuk .');
-                                window.location='index.php?page=inbox'</script>";
+                                window.location='inbox'</script>";
                 }
     }
 ?>
@@ -291,14 +292,14 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Perihal</label>
+                            <label class="col-lg-2 control-label">Penyelesaian</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='f' rows="3" class="form-control" data-trigger="keyup"><?php echo $e[disposisi]; ?></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Isi Perihal</label>
+                            <label class="col-lg-2 control-label">Isi Penyelesaian</label>
                             <div class="col-lg-8">
                             <textarea placeholder="" name='g' rows="9" class="textarea form-control" data-trigger="keyup"><?php echo $e[isi_disposisi]; ?></textarea>
                             </div>
@@ -376,14 +377,14 @@
                         </div>
                 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Perihal</label>
+                            <label class='col-lg-2 control-label'>Penyelesaian</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                            		 $in[disposisi] <br><br>
                             </div>
                         </div>
 
                         <div class='form-group'>
-                            <label class='col-lg-2 control-label'>Isi Perihal</label>
+                            <label class='col-lg-2 control-label'>Isi Penyelesaian</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                                  $in[isi_disposisi] <br><br>
                             </div>
@@ -412,7 +413,7 @@
 
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
+                     <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
                         <br /><br /> 
                         <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
                         <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 

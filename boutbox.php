@@ -1,7 +1,5 @@
  <?php 
     if ($_GET[aksi]==''){
-	
-		
 ?>
         <h4 style='padding-top:15px'>Semua Data Surat Keluar</h4>
             <!-- Basic Data Tables Example -->
@@ -224,28 +222,28 @@
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 1</label>
+                        <label class="col-lg-2 control-label">Diproses 1</label>
                             <div class="col-lg-5">
                             <input type="text" name="g" placeholder="" class="bg-focus form-control" data-required="true">
                             </div>
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 2</label>
+                        <label class="col-lg-2 control-label">Diproses 2</label>
                             <div class="col-lg-5">
                             <input type="text" name="h" placeholder="" class="bg-focus form-control" data-required="true">
                             </div>
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 3</label>
+                        <label class="col-lg-2 control-label">Diproses 3</label>
                             <div class="col-lg-5">
                             <input type="text" name="i" placeholder="" class="bg-focus form-control" data-required="true">
                             </div>
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 4</label>
+                        <label class="col-lg-2 control-label">Diproses 4</label>
                             <div class="col-lg-5">
                             <input type="text" name="j" placeholder="" class="bg-focus form-control" data-required="true">
                             </div>
@@ -278,10 +276,10 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                 <option value='B'>Unit Marketing</option>
-                                <option value='C'>Support</option>
-                                <option value='D'>Umum</option>
-                                <option value='E'>IT</option>
+                                <option value='B'>Unit Kerja B</option>
+                                <option value='C'>Unit Kerja C</option>
+                                <option value='D'>Unit Kerja D</option>
+                                <option value='E'>Unit Kerja E</option>
                             </select>
                             </div>
                         </div>
@@ -399,28 +397,28 @@
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 1</label>
+                        <label class="col-lg-2 control-label">Diproses 1</label>
                             <div class="col-lg-5">
                             <input type="text" name="g" placeholder="" class="bg-focus form-control" data-required="true" value="<?php echo $e[diproses_1]; ?>">
                             </div>
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 2</label>
+                        <label class="col-lg-2 control-label">Diproses 2</label>
                             <div class="col-lg-5">
                             <input type="text" name="h" placeholder="" class="bg-focus form-control" data-required="true" value="<?php echo $e[diproses_2]; ?>">
                             </div>
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 3</label>
+                        <label class="col-lg-2 control-label">Diproses 3</label>
                             <div class="col-lg-5">
                             <input type="text" name="i" placeholder="" class="bg-focus form-control" data-required="true" value="<?php echo $e[diproses_3]; ?>">
                             </div>
                         </div>
 
                         <div class="form-group">
-                        <label class="col-lg-2 control-label">Perihal 4</label>
+                        <label class="col-lg-2 control-label">Diproses 4</label>
                             <div class="col-lg-5">
                             <input type="text" name="j" placeholder="" class="bg-focus form-control" data-required="true" value="<?php echo $e[diproses_4]; ?>">
                             </div>
@@ -513,28 +511,28 @@
                         </div>
 
                         <div class='form-group'>
-                        <label class='col-lg-2 control-label'>Perihal 1</label>
+                        <label class='col-lg-2 control-label'>Diproses 1</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                             $e[diproses_1]
                             </div>
                         </div>
 
                         <div class='form-group'>
-                        <label class='col-lg-2 control-label'>Perihal 2</label>
+                        <label class='col-lg-2 control-label'>Diproses 2</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                             $e[diproses_2]
                             </div>
                         </div>
 
                         <div class='form-group'>
-                        <label class='col-lg-2 control-label'>Perihal 3</label>
+                        <label class='col-lg-2 control-label'>Diproses 3</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                             $e[diproses_3]
                             </div>
                         </div>
 
                         <div class='form-group'>
-                        <label class='col-lg-2 control-label'>Perihal 4</label>
+                        <label class='col-lg-2 control-label'>Diproses 4</label>
                             <div style='border-bottom:1px solid #e3e3e3' class='col-lg-9'>
                             $e[diproses_4]
                             </div>
@@ -568,11 +566,11 @@
 ?>
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/ </small>
+                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
                         <br /><br /> 
-                        <a href="https://twitter.com" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
-                        <a href="https://web.facebook.com" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 
-                        <a href="https://plus.google.com" class="btn btn-xs btn-circle btn-gplus"><i class="fa fa-google-plus"></i></a> 
+                        <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
+                        <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 
+                        <a href="https://plus.google.com/" class="btn btn-xs btn-circle btn-gplus"><i class="fa fa-google-plus"></i></a> 
                     </p> 
                 </div> 
             </footer>

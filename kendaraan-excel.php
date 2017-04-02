@@ -39,12 +39,12 @@ th { border:2px solid #000; }
 <body onload="window.print()">
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" colspan="22"><strong>PENGARSIPAN SURAT-SURAT <br>
+   <td align="center" colspan="12"><strong>PENGARSIPAN SURAT-SURAT<br>
     									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI <br>
     									   </strong></td>
   </tr>
   <tr>
-    <td align="center" colspan="22"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
+     <td align="center" colspan="12"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
@@ -110,14 +110,14 @@ th { border:2px solid #000; }
 
 <table width=100%>
   <tr>
-    <td width="230" align="center">Mengetahui <br> Project Manager</td>
+   <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>>
   </tr>
   <tr>
-   <td align="center"><br /><br /><br /><br /><br />
+    <td align="center"><br /><br /><br /><br /><br />
       ( Suhandi S.Kom )<br /><br /><br /></td>
 	<td align="center"><br /><br /><br /><br /><br />
       ( Nazih S.Kom )<br /><br /><br /></td>
@@ -127,6 +127,6 @@ th { border:2px solid #000; }
       ( Dwi Prastowo S.Kom )<br /><br /><br /></td>
 	<td align="center"><br /><br /><br /><br /><br />
       ( Ali Nurdin S.Kom )<br /><br /><br />
-    </td>
+	</td>
   </tr>
 </table> 

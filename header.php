@@ -1,21 +1,50 @@
-    <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" id="menu-toggler">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a style='color:#8a8a8a; padding-top:15px' class="navbar-brand" href="index.php"><i style='color:#000' class="fa fa-paste"></i> &nbsp; Aplikasi Pengarsiapan Surat Menyurat</a>
-        </div>
 
-        <ul class="nav navbar-nav pull-right hidden-xs">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown"> 
-                <img class="img-circle" src="images/images.png" alt="avatar"> Selamat Datang ! <b style='color:red'><?php echo $_SESSION[namalengkap]; ?> </b><b class="caret"></b></a>
+
+
+
+
+        <!--top nav start=======-->
+       
+          <div class="container-fluid">
+            <div class="navbar-header">      
+              <a class="navbar-brand" href="#" style="color: #000">Surat Oke</a>
+              <a href="#" class="sidebar-toggle">
+                <i class="fa fa-bars" style="color: #000"></i></a>
+                <span class="close-btn" id="hide-btn"><i class="fa fa-times" style="color: #000" aria-hidden="true"></i></span>
+            </div>
+
+            <ul class="social-icon pull-right list-inline">
+
+                <li class="dropdown">
+                  <a class=" dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-envelope"></span>
+                    <span class="number">4</span>
+                    <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a style='width:260px' href="account">Setting Account</a></li>
-                        <li class="divider"></li>
-                        <li><a href="logout.php">Sign Out</a></li>
-                    </ul>
+                      <li><a href="#">Laporan</a></li>
+                      <li><a href="#">Data User umum</a></li>
+                      <li><a href="#">Data user admin</a></li>
+                  </ul>
+              </li>
+
+              <li class="dropdown">
+                  <a class=" dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th-list"></span> 
+                    <span class="number">11</span>
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Surat masuk</a></li>
+                      <li><a href="#">Surat Keluar</a></li>
+                      <li><a href="#">Surat Undangan</a></li>
+                  </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> <b style='color:blue'><?php echo $_SESSION[namalengkap]; ?> </b><b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Update Profile</a></li>
+                    <li><a href="logout.php">Log-out</a></li>
+                </ul>
             </li>
-        </ul>
+        </ul>       
+    </div>  
+   
+          <!--    top nav end===========-->

@@ -168,7 +168,7 @@
                             <div class="col-lg-4">
                             <select name='unit' class="form-control">
                                 <option value=''>- Pilih Unit Kerja -</option>
-                                <option value='G'>Unit Direksi</option>
+                                <option value='G'>Unit Kerja G</option>
                             </select>
                             </div>
                         </div>
@@ -359,7 +359,7 @@
 ?>
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                   <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
+                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
                         <br /><br /> 
                         <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
                         <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 

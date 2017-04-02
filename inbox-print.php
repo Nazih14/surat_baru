@@ -11,18 +11,18 @@ include "koneksi.php";
 	<td width="65" rowspan="6"><img src="images/images.png" width="90" height="90"></td>
   </tr>
   <tr>
-    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT  </p>
-	<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASII </p> 
-	</strong></td>
+    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT </p> 
+					<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI </p>
+					</strong></td>
   </tr>
   <tr>
-    <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
+     <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
 <?php	
 	echo "<table width=100% border=1>
-					<tr bgcolor='Yellow'>
+					<tr bgcolor='green'>
                         <th>No</th>
                         <th>Pengirim</th>
                         <th width='100px'>Tanggal Surat</th>
@@ -30,7 +30,7 @@ include "koneksi.php";
                         <th>No. Surat</th>
                         <th>Perihal</th>
                         <th width='100px'>Lokasi Arsip</th>
-                        <th>Perihal</th>
+                        <th>Penyelesaian</th>
                     </tr>
                     </thead>
                     <tbody>";
@@ -61,7 +61,7 @@ include "koneksi.php";
     <td width="286"></td>
   </tr>
   <tr>
-    <td width="230" align="center">Mengetahui <br> Project Manager</td>
+   <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
@@ -78,6 +78,7 @@ include "koneksi.php";
       ( Dwi Prastowo S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
       ( Ali Nurdin S.Kom )<br /><br />
+	 </td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;</td>

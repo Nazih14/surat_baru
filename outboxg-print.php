@@ -8,15 +8,14 @@ include "koneksi.php";
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
     <tr>
     <td width="550" align="center">&nbsp;</td>
-	<td width="65" rowspan="6"><img src="images/images.png"  width="90" height="90"></td>
+	<td width="65" rowspan="6"><img src="images/images.png" width="90" height="90"></td>
   </tr>
   <tr>
-    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT</p>
-	<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI</p> 
-	</strong></td>
-  </tr>
+     <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT </p> 
+					<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI </p>
+					</strong></td>
   <tr>
-    <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
+     <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
@@ -62,7 +61,7 @@ include "koneksi.php";
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>
   </tr>
   <tr>
-    <td align="center"><br /><br /><br /><br />
+     <td align="center"><br /><br /><br /><br />
       ( Suhandi S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
       ( Nazih S.Kom )<br /><br /></td>
@@ -71,7 +70,8 @@ include "koneksi.php";
 	<td align="center"><br /><br /><br /><br />
       ( Dwi Prastowo S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
-      ( Ali Nurdin S.Kom )<br /><br /></td>
+      ( Ali Nurdin S.Kom )<br /><br />
+	 </td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;</td>

@@ -11,9 +11,9 @@ include "koneksi.php";
 	<td width="65" rowspan="6"><img src="images/images.png" width="90" height="90"></td>
   </tr>
   <tr>
-    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT </p> 
-				<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI  </p> 
-				</strong></td>
+    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT</p>
+	<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI </p> 
+	</strong></td>
   </tr>
   <tr>
     <td align="center">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
@@ -215,7 +215,7 @@ $e = mysql_fetch_array(mysql_query("SELECT * FROM kendaraan where id_kendaraan='
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>
   </tr>
   <tr>
-    <td align="center"><br /><br /><br /><br />
+   <td align="center"><br /><br /><br /><br />
       ( Suhandi S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
       ( Nazih S.Kom )<br /><br /></td>

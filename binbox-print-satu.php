@@ -6,11 +6,11 @@ session_start();
 include "koneksi.php"; 
 ?>
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
+   <tr>
     <td width="550" align="center">&nbsp;</td>
 	<td width="65" rowspan="6"><img src="images/images.png" width="90" height="90"></td>
   </tr>
-  <tr>
+ <tr>
     <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT</p>
 	<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI </p> 
 	</strong></td>
@@ -54,19 +54,19 @@ $in = mysql_fetch_array(mysql_query("SELECT * FROM inbox_b where id_inbox_b='$_G
             </tr>
 
             <tr>
-                <td valign=top>Isi Perihal A</td>
+                <td valign=top>Isi Penyelesaian A</td>
                 <td width=20px valign=top> : </td>
                 <td>$in[isi_disposisi_a]</td>
             </tr>
 
             <tr>
-                <td valign=top>Isi Perihal B</td>
+                <td valign=top>Isi Penyelesaian B</td>
                 <td width=20px valign=top> : </td>
                 <td>$in[isi_disposisi_b]</td>
             </tr>
 
             <tr>
-                <td valign=top>Isi Perihal C</td>
+                <td valign=top>Isi Penyelesaian C</td>
                 <td width=20px valign=top> : </td>
                 <td>$in[isi_disposisi_c]</td>
             </tr>
@@ -102,10 +102,9 @@ $in = mysql_fetch_array(mysql_query("SELECT * FROM inbox_b where id_inbox_b='$_G
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>
-   
   </tr>
   <tr>
-    <td align="center"><br /><br /><br /><br />
+     <td align="center"><br /><br /><br /><br />
       ( Suhandi S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
       ( Nazih S.Kom )<br /><br /></td>

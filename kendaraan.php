@@ -1,20 +1,7 @@
 <?php 
     if ($_GET[aksi]==''){
-		
-        if ($_GET[stat]=='1'){
-            $status = 'User Biasa';
-            $level = 'user_biasa';
-        }elseif ($_GET[stat]=='2'){
-            $status = 'User Input';
-            $level = 'user_input';
-        }else{
-            $status = 'User Admin';
-            $level = 'user_admin';
-        }
 ?>
-		
-
-         <!--<h4 style='padding-top:15px'>Semua Data Surat Kendaraan</h4>-->
+        <h4 style='padding-top:15px'>Semua Data Surat Kendaraan</h4>
             <!-- Basic Data Tables Example -->
             <div class="col-md-12">
             <div class="panel panel-default">
@@ -803,10 +790,10 @@
 
              <footer id="footer"> 
                 <div class="text-center clearfix">
-                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/ </small>
+                    <p><small>&copy 2017 - Develop by THE TEAM - http://pos.projek-online.net/</small>
                         <br /><br /> 
-                        <a href="https://twitter.com" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
-                        <a href="https://web.facebook.com" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 
+                        <a href="https://twitter.com/" class="btn btn-xs btn-circle btn-twitter"><i class="fa fa-twitter"></i></a> 
+                        <a href="https://web.facebook.com/" class="btn btn-xs btn-circle btn-facebook"><i class="fa fa-facebook"></i></a> 
                         <a href="https://plus.google.com/" class="btn btn-xs btn-circle btn-gplus"><i class="fa fa-google-plus"></i></a> 
                     </p> 
                 </div> 

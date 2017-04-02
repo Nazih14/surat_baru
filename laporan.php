@@ -259,7 +259,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">det Perihal</label>
+                            <label class="col-lg-2 control-label">Disposisi</label>
                             <div class="col-lg-9">
                             <textarea placeholder="" name='f' rows="3" class="form-control" data-trigger="keyup"><?php echo $e[disposisi]; ?></textarea>
                             </div>

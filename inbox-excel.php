@@ -39,12 +39,12 @@ th { border:2px solid #000; }
 <body onload="window.print()">
 <table class="basic"  border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" colspan="8"><strong>PENGARSIPAN SURAT-SURAT <br>
-    									   DIVISI PENGEMBANG TEKNOLOGI INFORMASI <br>
+   <td align="center" colspan="12"><strong>PENGARSIPAN SURAT-SURAT<br>
+    									   DIVISI PENGEMBANGTEKNOLOGI INFORMASI <br>
     									   </strong></td>
   </tr>
   <tr>
-    <td align="center" colspan="8">&nbsp;<p>Jln. MARGONDA RAYA  NO 39 <br> Telp. (021) 96670860, Kode Pos. 12345</p></td>
+     <td align="center" colspan="12"><p>Jln. MARGONDA RAYA  NO 39 <br> Telp.(021) 96670860, Kode Pos. 12345</p></td>
   </tr>   
 </table>
 <br><br>
@@ -58,7 +58,7 @@ th { border:2px solid #000; }
                         <th>No. Surat</th>
                         <th>Perihal</th>
                         <th width='100px'>Lokasi Arsip</th>
-                        <th>Detail Perihal</th>
+                        <th>Penyelesaian</th>
                     </tr>
                     </thead>
                     <tbody>";
@@ -92,16 +92,15 @@ th { border:2px solid #000; }
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>>
   </tr>
   <tr>
-     <td align="center"><br /><br /><br /><br />
-      ( Suhandi S.Kom )<br /><br /></td>
-	<td align="center"><br /><br /><br /><br />
-      ( Nazih S.Kom )<br /><br /></td>
-	<td align="center"><br /><br /><br /><br />
-      ( Mustopa S.Kom )<br /><br /></td>
-	<td align="center"><br /><br /><br /><br />
-      ( Dwi Prastowo S.Kom )<br /><br /></td>
-	<td align="center"><br /><br /><br /><br />
-      ( Ali Nurdin S.Kom )<br /><br />
-	 </td>
+     <td align="center"><br /><br /><br /><br /><br />
+      ( Suhandi S.Kom )<br /><br /><br /></td>
+	<td align="center"><br /><br /><br /><br /><br />
+      ( Nazih S.Kom )<br /><br /><br /></td>
+	<td align="center"><br /><br /><br /><br /><br />
+      ( Mustopa S.Kom )<br /><br /><br /></td>
+	<td align="center"><br /><br /><br /><br /><br />
+      ( Dwi Prastowo S.Kom )<br /><br /><br /></td>
+	<td align="center"><br /><br /><br /><br /><br />
+      ( Ali Nurdin S.Kom )<br /><br /><br />
   </tr>
 </table> 

@@ -11,7 +11,7 @@ include "koneksi.php";
 	<td width="65" rowspan="6"><img src="images/images.png" width="90" height="90"></td>
   </tr>
   <tr>
-    <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT </p> 
+     <td align="center"><strong><p style='margin-bottom:-9px'>PENGARSIPAN SURAT-SURAT </p> 
 					<p style='margin-bottom:-9px'>DIVISI PENGEMBANG TEKNOLOGI INFORMASI </p>
 					</strong></td>
   </tr>
@@ -22,16 +22,16 @@ include "koneksi.php";
 <br><br>
 <?php	
 	echo "<table width=100% border=1>
-					<tr bgcolor='yellow'>
+					<tr bgcolor='green'>
                         <th>No</th>
                         <th>No. Surat</th>
                         <th>Pengirim</th>
                         <th width='100px'>Tanggal Surat</th>
                         <th width='100px'>Masuk Agenda</th>
                         <th>Perihal</th>
-                        <th>Isi Perihal A</th>
-                        <th>Isi Perihal B</th>
-                        <th>Isi Perihal C</th>
+                        <th>Isi Penyelesaian A</th>
+                        <th>Isi Penyelesaian B</th>
+                        <th>Isi Penyelesaian C</th>
                         <th width='50px'>Lamp.</th>
                         <th width='60px'>Status</th>
                         <th width='95px'>Lokasi Arsip</th>";
@@ -73,11 +73,7 @@ include "koneksi.php";
 
 <table width=100%>
   <tr>
-    <td colspan="2"></td>
-    <td width="286"></td>
-  </tr>
-  <tr>
-    <td width="230" align="center">Mengetahui <br> Project Manager</td>
+   <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>

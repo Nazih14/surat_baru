@@ -62,25 +62,25 @@ $e = mysql_fetch_array(mysql_query("SELECT * FROM outbox_b where id_outbox_b='$_
             </tr>
 
             <tr>
-                <td>Perihal 1</td>
+                <td>Diproses 1</td>
                 <td width=20px> : </td>
                 <td>$e[diproses_1]</td>
             </tr>
 
             <tr>
-                <td>Perihal 2</td>
+                <td>Diproses 2</td>
                 <td width=20px> : </td>
                 <td>$e[diproses_2]</td>
             </tr>
 
             <tr>
-                <td>Perihal 3</td>
+                <td>Diproses 3</td>
                 <td width=20px> : </td>
                 <td>$e[diproses_3]</td>
             </tr>
 
             <tr>
-                <td>Perihal 4</td>
+                <td>Diproses 4</td>
                 <td width=20px> : </td>
                 <td>$e[diproses_4]</td>
             </tr>
@@ -105,14 +105,14 @@ $e = mysql_fetch_array(mysql_query("SELECT * FROM outbox_b where id_outbox_b='$_
     <td width="286"></td>
   </tr>
   <tr>
-    <td width="230" align="center">Mengetahui <br> Project Manager</td>
+     <td width="230" align="center">Mengetahui <br> Project Manager</td>
 	<td width="230" align="center">Mengetahui <br> Desain</td>
 	<td width="230" align="center">Mengetahui <br> Analys</td>
 	<td width="230" align="center">Mengetahui <br> Prog 1</td>
 	<td width="230" align="center">Mengetahui <br> Prog 2</td>
   </tr>
   <tr>
-   <td align="center"><br /><br /><br /><br />
+    <td align="center"><br /><br /><br /><br />
       ( Suhandi S.Kom )<br /><br /></td>
 	<td align="center"><br /><br /><br /><br />
       ( Nazih S.Kom )<br /><br /></td>
