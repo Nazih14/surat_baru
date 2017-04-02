@@ -84,20 +84,20 @@ h3,h4 {
   font-family: "VarelaRound-Regular";
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  margin-left: 25px;
 }
 strong {
   color: #ff3c00;
-  font-family: "VarelaRound-Regular";
+  font-family: arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
+
 
 .logo {
   padding: 0px 20px 0px 50px;
   margin-top: 40px;
 }
-
-
 
 
 .fa {
@@ -428,8 +428,16 @@ strong {
 .green-light {
     background-color: #4caf50;
 }
+
 .blue-light {
     background-color: #0d47a1;
+}
+.sam-light {
+    background-color: #E91E63;
+}
+
+.cian-light {
+    background-color: #880e4f;
 }
 .green-dark {
   background-color: #827717;

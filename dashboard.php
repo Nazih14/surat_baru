@@ -1,56 +1,4 @@
-<style>
-  .bs-glyphicons {
-    margin: 5px 20px 20px 0px;
-    overflow: hidden;
-  }
-  .bs-glyphicons-list {
-    padding-left: 0;
-    list-style: none;
-  }
 
-  .bs-glyphicons-list a {
-    color:#8a8a8a !important;
-  }
-  ol, ul {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  .bs-glyphicons li {
-    float: left;
-    width: 20%;
-    height: 155px;
-    padding: 30px;
-    font-size: 10px;
-    line-height: 1.4;
-    text-align: center;
-    border: 1px solid #cecece;
-    background-color: #ffffff;
-  }
-  .bs-glyphicons li:hover {
-    background-color: #e3e3e3;
-  }
-  .bs-glyphicons .glyphicon {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 74px;
-  }
-  .glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .bs-glyphicons .glyphicon-class {
-    display: block;
-    text-align: center;
-    word-wrap: break-word;
-  }
-</style>
 <div class="bs-docs-section">
 
 
@@ -283,11 +231,11 @@
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
       <a href="izin">
-        <div class="circle-tile-heading green-light">
+        <div class="circle-tile-heading cian-light">
           <img src="images/images/izin.gif" class="img-responsive" width="100%">
         </div>
       </a>
-      <div class="circle-tile-content green-light">
+      <div class="circle-tile-content cian-light">
         <div class="circle-tile-description text-faded">
           Surat Izin Karyawan
         </div>
@@ -303,11 +251,11 @@
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
       <a href="pinjamb">
-        <div class="circle-tile-heading green-light">
+        <div class="circle-tile-heading sam-light">
           <img src="images/images/laporan.png" class="img-responsive" width="100%">
         </div>
       </a>
-      <div class="circle-tile-content green-light">
+      <div class="circle-tile-content sam-light">
         <div class="circle-tile-description text-faded">
           Surat Peminjaman
         </div>
@@ -638,7 +586,7 @@
 
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
-      <a href="#">
+      <a href="index.php?page=user&stat=1">
         <div class="circle-tile-heading dark-gray">
           <img src="images/images/user.png" class="img-responsive" width="100%">
         </div>
@@ -657,7 +605,7 @@
   </div>
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
-      <a href="#">
+      <a href="index.php?page=user&stat=2">
         <div class="circle-tile-heading green-dark">
           <img src="images/images/admin.png" class="img-responsive" width="100%">
         </div>
@@ -678,7 +626,7 @@
   <?php if ($_SESSION[level] == 'user_admin'){ ?>
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
-      <a href="#">
+      <a href="index.php?page=user&stat=3">
         <div class="circle-tile-heading brown">
           <img src="images/images/fasil.png" class="img-responsive" width="100%">
         </div>
@@ -699,7 +647,7 @@
 
   <div class="col-lg-2 col-sm-6">
     <div class="circle-tile">
-      <a href="#">
+      <a href="logout.php">
         <div class="circle-tile-heading pink">
           <img src="images/images/log.png" class="img-responsive" width="100%">
         </div>
@@ -716,10 +664,6 @@
       </div>
     </div>
   </div>
-
-
-  
-  ]
 
 
 

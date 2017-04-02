@@ -6,7 +6,7 @@ session_start();
 
 <!-- Mirrored from istran.net/myxdashboard/table-data.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 03 Jun 2015 04:32:42 GMT -->
 <head>
-  <title>Dashboard - Aplikasi Pengarsipan Surat Menyurat</title>
+  <title>Dashboard - Aplikasi Arsip </title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- bootstrap -->
@@ -14,7 +14,6 @@ session_start();
   <link href="css/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
   <!-- theme -->
   <!-- <link rel="stylesheet" type="text/css" href="css/theme/default.css" /> -->
-  <link rel="stylesheet" type="text/css" href="css/css/custom.css" />
   <!-- libraries -->
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
   <link rel="stylesheet" type="text/css" href="css/elements/dataTables.bootstrap.css" />
@@ -22,6 +21,8 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/elements/form.css" />
   <link rel="stylesheet" type="text/css" href="css/elements/bootstrap-wysihtml5.css" />
   <!-- open sans font -->
+  <link rel="stylesheet" type="text/css" href="css/css/custom.css" />
+  
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
